@@ -1,6 +1,9 @@
-import {
-  TbExternalLink,
-} from "react-icons/tb";
+import flower from "../../assets/flower.png";
+import image from "../../assets/image.png";
+import image1 from "../../assets/image1.png";
+
+import { TbExternalLink} from "react-icons/tb";
+
 const Project = () => {
   return (
     <>
@@ -17,9 +20,9 @@ const Project = () => {
           </a>
         </div>
         <div className="md:flex justify-between items-center gap-4">
-          <div className="relative p-5 mb-3 w-70 h-120 bg-white/5 rounded-2xl sm:w-100 md:w-120 overflow-hidden">
+          <div className="relative p-5 mb-3 w-70 h-120 bg-white/5 rounded-2xl sm:w-100 md:w-120">
             <img
-              src="src/assets/image.png"
+              src={image}
               alt="image"
               className="w-60 sm:w-90 md:w-120 h-48 rounded-2xl"
             />
@@ -43,7 +46,7 @@ const Project = () => {
           </div>
           <div className="relative p-5 mb-3 w-70 h-120 bg-white/5 rounded-2xl sm:w-100 md:w-120">
             <img
-              src="src/assets/flower.png"
+              src={flower}
               alt="image"
               className="w-60 sm:w-90 md:w-110 h-48 rounded-2xl"
             />
@@ -67,7 +70,7 @@ const Project = () => {
           </div>
           <div className="relative p-5 mb-3 w-70 h-120 bg-white/5 rounded-2xl sm:w-100 md:w-120">
             <img
-              src="src/assets/image1.png"
+              src={image1}
               alt="image"
               className="w-60 sm:w-90 md:w-110 h-48 rounded-2xl"
             />

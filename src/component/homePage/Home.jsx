@@ -7,6 +7,7 @@ import {
   TbDownload,
   TbMouse,
 } from "react-icons/tb";
+import hero from "../../assets/hero.png";
 
 const Home = () => {
   return (
@@ -86,7 +87,7 @@ const Home = () => {
         </div>
         {/* hero image */}
         <div className="p-6 w-80 h-80 border-32 border-purple-800/5 bg-darkviolet/40 md:translate-y-1/3 rounded-full sm:w-100 sm:h-100">
-          <img src="src/assets/hero.png" alt="asd" />
+          <img src={hero} alt="asd" />
         </div>
       </div>
       {/* scroll icon */}

@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+    --color-darkviolet: #0b0736;
+    --color-darkGrayishBlue: #9095a7;
+}
+
+@theme {
+    --breakpoint-sm: 30rem;
+    /* 480px */
+    --breakpoint-md: 50rem;
+    /* 768 px */
+    --breakpoint-lg: 60rem;
+    /* 1056px */
+    --breakpoint-xl: 90rem;
+    /* 1440px */
+}
+
+@layer components {
+    .nav-link {
+        @apply z-50 relative cursor-pointer text-white transition-all;
+    }
+
+    .active-link {
+        @apply text-white;
+        text-shadow: 0 0px 1px white, 0 10px 20px white;
+
+    }
+
+    .active-link2::after {
+        content: '';
+        @apply absolute left-0 m-auto -bottom-2 h-0.5 w-full bg-white;
+
+    }
+}
+
+body {
+    background: #010920;
+    color: #fff;
+    overflow: hidden;
+    overflow-y: scroll;
+}

@@ -8,7 +8,7 @@ import Node from "../../assets/Node.js.svg";
 import Express from "../../assets/Express.svg";
 import MongoDB from "../../assets/MongoDB.svg";
 import Pandas from "../../assets/Pandas.svg";
-import Numpy from "../../assets/Numpy.svg";
+import Numpy from "../../assets/NumPy.svg";
 
 const Skills = () => {
   return (

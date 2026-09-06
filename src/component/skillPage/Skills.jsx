@@ -8,7 +8,7 @@ import Node from "../../assets/Node.js.svg";
 import Express from "../../assets/Express.svg";
 import MongoDB from "../../assets/MongoDB.svg";
 import Pandas from "../../assets/Pandas.svg";
-import NumPy from "../../assets/Numpy.svg";
+import Numpy from "../../assets/Numpy.svg";
 
 const Skills = () => {
   return (
@@ -59,7 +59,7 @@ const Skills = () => {
             <h1 className="text-sm">Pandas</h1>
           </div>
           <div className="w-24 h-32 bg-white/5 rounded-2xl flex flex-col items-center justify-around">
-            <img src={NumPy} alt="" className="w-10 h-10" />
+            <img src={Numpy} alt="" className="w-10 h-10" />
             <h1 className="text-sm">NumPy</h1>
           </div>
         </div>

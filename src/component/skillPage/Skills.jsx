@@ -34,13 +34,13 @@ const Skills = () => {
             <img src={React} alt="" className="w-10 h-10" />
             <h1 className="text-sm">React</h1>
           </div>
-          <div className="hidden w-24 h-32 bg-white/5 rounded-2xl sm:flex flex-col items-center justify-around">
-            <img src={JavaScript} alt="" className="w-10 h-10" />
-            <h1 className="text-sm">JavaScript</h1>
-          </div>
           <div className="w-24 h-32 bg-white/5 rounded-2xl flex flex-col items-center justify-around">
             <img src={Python} alt="" className="w-10 h-10" />
             <h1 className="text-sm">Python</h1>
+          </div>
+          <div className="hidden w-24 h-32 bg-white/5 rounded-2xl sm:flex flex-col items-center justify-around">
+            <img src={JavaScript} alt="" className="w-10 h-10" />
+            <h1 className="text-sm">JavaScript</h1>
           </div>
           <div className="w-24 h-32 bg-white/5 rounded-2xl flex flex-col items-center justify-around">
             <img src={Node} alt="" className="w-10 h-10" />
